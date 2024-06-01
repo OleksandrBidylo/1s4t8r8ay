@@ -4,28 +4,2096 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arthas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="../css/arthas.css" />
     <link rel="stylesheet" href="../css/styles.css" />
     <!-- Подключаем таблицу стилей -->
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1>Страница Arthas</h1>
-        <nav>
-          <ul>
-            <li><a href="/index.html">Главная</a></li>
-          </ul>
-        </nav>
+    <header class="header">
+      <div class="home-logo-wrap">
+        <a class="logo" href="/index.html">Dota2 Streamers Builds</a>
+        <a class="home" href="/index.html">Home</a>
       </div>
     </header>
 
     <main>
-      <!-- Содержимое страницы Arthas -->
+      <section class="streamer container">
+        <div class="streamer-his-name">
+          <img
+            class="s-photo"
+            src="/images/papich.jpg"
+            alt="ebalo"
+            width="110"
+            height="80"
+          />
+          <h2 class="s-name">Arthas</h2>
+          <p class="s-ps">Papich</p>
+          <p class="space">.</p>
+          <p class="s-real-name">Vitaliy Tsal</p>
+        </div>
+        <div>
+          <div class="button-wrap">
+            <button id="button1" class="button">
+              <img src="/images/pos_1.png" alt="pos1" /> Carry
+            </button>
+            <button id="button2" class="button">
+              <img src="/images/pos_3.png" alt="" />Offlane
+            </button>
+          </div>
+
+          <div id="content1" class="content">
+            <!-- hero -->
+            <ul class="names">
+              <li>
+                <p class="names-text">Hero</p>
+              </li>
+              <li>
+                <p class="names-text">Start</p>
+              </li>
+              <li>
+                <p class="names-text">Build</p>
+              </li>
+              <li>
+                <p class="names-text">Abilities lvl 1-10</p>
+              </li>
+            </ul>
+            <ul class="hero-all">
+              <li class="hero-itemb-all">
+                <div class="icon-name">
+                  <img
+                    class="image"
+                    src="/images/heroes/Crown_of_the_One_True_King_Wraith_King_minimap_icon.png"
+                    alt="wk"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="hero-name">Wraith King</p>
+                </div>
+                <ul class="starting-items">
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Quelling_Blade_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Tango_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Enchanted_Mango_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+                <ul class="core-items">
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Power_Treads_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Magic_Wand_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Armlet_of_Mordiggian_29_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Radiance_29_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Blade_Mail_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Blink_Dagger_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Mjollnir_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Bloodthorn_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Boots_of_Travel_1_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+
+                <ul class="skills">
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Crown_of_the_One_True_King_Wraithfire_Blast_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Sword_of_the_One_True_King_Mortal_Strike_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Crown_of_the_One_True_King_Vampiric_Aura_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Crown_of_the_One_True_King_Wraithfire_Blast_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Sword_of_the_One_True_King_Mortal_Strike_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Crown_of_the_One_True_King_Reincarnation_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Crown_of_the_One_True_King_Wraithfire_Blast_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Sword_of_the_One_True_King_Mortal_Strike_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Crown_of_the_One_True_King_Wraithfire_Blast_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/attribute_bonus.png"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="hero-all">
+              <li class="hero-itemb-all">
+                <div class="icon-name">
+                  <img
+                    class="image"
+                    src="/images/heroes/Abaddon_minimap_icon.png"
+                    alt="wk"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="hero-name">Abaddon</p>
+                </div>
+                <ul class="starting-items">
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Quelling_Blade_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Orb_of_Venom_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Tango_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+                <ul class="core-items">
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Phase_Boots_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Magic_Wand_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Vladmir27s_Offering_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Radiance_29_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Blade_Mail_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Mjollnir_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Scythe_of_Vyse_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Octarine_Core_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Boots_of_Travel_1_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+
+                <ul class="skills">
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Curse_of_Avernus_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Aphotic_Shield_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Aphotic_Shield_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Mist_Coil_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Aphotic_Shield_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Borrowed_Time_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Aphotic_Shield_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Mist_Coil_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Mist_Coil_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/attribute_bonus.png"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="hero-all">
+              <li class="hero-itemb-all">
+                <div class="icon-name">
+                  <img
+                    class="image"
+                    src="/images/heroes/Ember_Spirit_minimap_icon.png"
+                    alt="wk"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="hero-name">Ember Spirit</p>
+                </div>
+                <ul class="starting-items">
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Quelling_Blade_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Tango_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Orb_of_Venom_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+                <ul class="core-items">
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Phase_Boots_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Magic_Wand_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Wraith_Band_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Battle_Fury_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Manta_Style_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Daedalus_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Linken27s_Sphere_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Bloodthorn_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Boots_of_Travel_1_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+
+                <ul class="skills">
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Sleight_of_Fist_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Searing_Chains_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Sleight_of_Fist_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Searing_Chains_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Sleight_of_Fist_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Activate_Fire_Remnant_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Sleight_of_Fist_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Searing_Chains_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Searing_Chains_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/attribute_bonus.png"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="hero-all">
+              <li class="hero-itemb-all">
+                <div class="icon-name">
+                  <img
+                    class="image"
+                    src="/images/heroes/Manifold_Paradox_Phantom_Assassin_minimap_icon.png"
+                    alt="wk"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="hero-name">Phantom Assassin</p>
+                </div>
+                <ul class="starting-items">
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Quelling_Blade_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Tango_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Orb_of_Venom_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+                <ul class="core-items">
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Phase_Boots_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Magic_Wand_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Vladmir27s_Offering_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Mjollnir_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Black_King_Bar_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Abyssal_Blade_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Satanic_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Monkey_King_Bar_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Boots_of_Travel_1_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+
+                <ul class="skills">
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Manifold_Paradox_Stifling_Dagger_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Manifold_Paradox_Phantom_Strike_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Manifold_Paradox_Stifling_Dagger_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Manifold_Paradox_Blur_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Manifold_Paradox_Stifling_Dagger_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Manifold_Paradox_Coup_de_Grace_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Manifold_Paradox_Stifling_Dagger_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Manifold_Paradox_Phantom_Strike_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Manifold_Paradox_Phantom_Strike_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/attribute_bonus.png"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="hero-all">
+              <li class="hero-itemb-all">
+                <div class="icon-name">
+                  <img
+                    class="image"
+                    src="/images/heroes/Medusa_minimap_icon.png"
+                    alt="wk"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="hero-name">Medusa</p>
+                </div>
+                <ul class="starting-items">
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Circlet_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Slippers_of_Agility_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Tango_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+                <ul class="core-items">
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Phase_Boots_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Magic_Wand_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Wraith_Band_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Mask_of_Madness_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Blade_Mail_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Bloodthorn_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Eye_of_Skadi_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Mjollnir_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Boots_of_Travel_1_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+
+                <ul class="skills">
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Mystic_Snake_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Split_Shot_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Mystic_Snake_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Split_Shot_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Mystic_Snake_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Stone_Gaze_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Mystic_Snake_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Split_Shot_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Split_Shot_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/attribute_bonus.png"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <ul class="hero-all">
+              <li class="hero-itemb-all">
+                <div class="icon-name">
+                  <img
+                    class="image"
+                    src="/images/heroes/Dragon_Knight_minimap_icon.png"
+                    alt="wk"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="hero-name">Dragon Knight</p>
+                </div>
+                <ul class="starting-items">
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Quelling_Blade_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Tango_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Enchanted_Mango_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Faerie_Fire_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+                <ul class="core-items">
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Power_Treads_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Magic_Wand_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Armlet_of_Mordiggian_29_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Mask_of_Madness_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Shadow_Blade_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Black_King_Bar_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Monkey_King_Bar_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Satanic_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Boots_of_Travel_1_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+
+                <ul class="skills">
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Breathe_Fire_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Dragon_Blood_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Breathe_Fire_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Dragon_Tail_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Breathe_Fire_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Elder_Dragon_Form_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Breathe_Fire_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Dragon_Blood_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Dragon_Blood_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/attribute_bonus.png"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div>
+              <h3 class="empty-slot">
+                <img
+                  class="image"
+                  src="/images/items/Banana_icon.webp"
+                  alt="1"
+                  width="30"
+                  height="25"
+                />= EMPTY SLOTE
+              </h3>
+            </div>
+          </div>
+
+          <div id="content2" class="content" style="display: none">
+            <!-- hero -->
+
+            <ul class="names">
+              <li>
+                <p class="names-text">Hero</p>
+              </li>
+              <li>
+                <p class="names-text">Start</p>
+              </li>
+              <li>
+                <p class="names-text">Build</p>
+              </li>
+              <li>
+                <p class="names-text">Abilities lvl 1-10</p>
+              </li>
+            </ul>
+
+            <ul class="hero-all">
+              <li class="hero-itemb-all">
+                <div class="icon-name">
+                  <img
+                    class="image"
+                    class="image"
+                    src="/images/heroes/Eminence_of_Ristul_Queen_of_Pain_minimap_icon.png"
+                    alt="wk"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="hero-name">Queen of Pain</p>
+                </div>
+                <ul class="starting-items">
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Mantle_of_Intelligence_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Circlet_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Tango_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Enchanted_Mango_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+                <ul class="core-items">
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Magic_Wand_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Urn_of_Shadows_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Arcane_Boots_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Dagon_1_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Linken27s_Sphere_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Shiva27s_Guard_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Aghanim27s_Scepter_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Scythe_of_Vyse_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Boots_of_Travel_1_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+
+                <ul class="skills">
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Eminence_of_Ristul_Shadow_Strike_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Eminence_of_Ristul_Blink_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Eminence_of_Ristul_Shadow_Strike_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Eminence_of_Ristul_Scream_of_Pain_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Eminence_of_Ristul_Scream_of_Pain_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Eminence_of_Ristul_Sonic_Wave_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Eminence_of_Ristul_Scream_of_Pain_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Eminence_of_Ristul_Scream_of_Pain_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Eminence_of_Ristul_Blink_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      src="/images/attribute_bonus.png"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="hero-all">
+              <li class="hero-itemb-all">
+                <div class="icon-name">
+                  <img
+                    class="image"
+                    src="/images/heroes/Compass_of_the_Rising_Gale_Windranger_minimap_icon.png"
+                    alt="wk"
+                    width="30"
+                    height="30"
+                  />
+                  <p class="hero-name">Windranger</p>
+                </div>
+                <ul class="starting-items">
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Tango_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Circlet_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="s-item">
+                    <img
+                      class="image"
+                      src="/images/items/Iron_Branch_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+                <ul class="core-items">
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Phase_Boots_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Magic_Wand_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Null_Talisman_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Linken27s_Sphere_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Monkey_King_Bar_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Blink_Dagger_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Aghanim27s_Scepter_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Scythe_of_Vyse_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                  <li class="c-item">
+                    <img
+                      class="image"
+                      src="/images/items/Boots_of_Travel_1_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="25"
+                    />
+                  </li>
+                </ul>
+
+                <ul class="skills">
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Compass_of_the_Rising_Gale_Windrun_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Compass_of_the_Rising_Gale_Powershot_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Compass_of_the_Rising_Gale_Powershot_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Compass_of_the_Rising_Gale_Windrun_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Compass_of_the_Rising_Gale_Powershot_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Compass_of_the_Rising_Gale_Windrun_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Compass_of_the_Rising_Gale_Powershot_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Compass_of_the_Rising_Gale_Windrun_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/heroes/Compass_of_the_Rising_Gale_Focus_Fire_icon.webp"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                  <li class="skll">
+                    <img
+                      class="image"
+                      src="/images/attribute_bonus.png"
+                      alt="1"
+                      width="30"
+                      height="30"
+                    />
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div>
+              <h3 class="empty-slot">
+                <img
+                  class="image"
+                  src="/images/items/Banana_icon.webp"
+                  alt="1"
+                  width="30"
+                  height="25"
+                />= EMPTY SLOTE
+              </h3>
+            </div>
+          </div>
+
+          <script src="/js/pages.js"></script>
+        </div>
+      </section>
     </main>
 
-    <footer>
-      <!-- Подвал страницы Arthas -->
+    <footer class="footer">
+      <section class="container">
+        <div class="footer-content">
+          <h2 class="footer-subtile">Dota2 Streamers Builds©</h2>
+          <p class="footer-text">
+            On this site you can see builds of the most powerful Dota 2
+            streamers (builds 2013-2024)
+          </p>
+        </div>
+      </section>
     </footer>
   </body>
 </html>

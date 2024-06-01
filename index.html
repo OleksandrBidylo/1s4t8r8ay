@@ -4,52 +4,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dota2 Streamers Builds</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
     <script src="./js/pages.js"></script>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <a href="./index.html">Dota2 Streamers Builds</a>
-      </div>
+    <header class="header">
+      <a class="logo" href="./index.html">Dota2 Streamers Builds</a>
     </header>
 
     <main>
       <section>
-        <div class="container">
-          <h1 class="hero-title">Streamers</h1>
-          <nav>
-            <ul>
-              <li>
-                <a href="./html/arthas.html"
-                  ><img src="./images/arthas.jpg" alt="rapich" />Arthas</a
-                >
-                <p>пиковый ммр:7k</p>
-              </li>
-              <li>
-                <a href="./html/stray.html"
-                  ><img src="./images/stray228.jpg" alt="stray" />Stray228</a
-                >
-                <p>пиковый ммр:18k</p>
-              </li>
-              <li>
-                <a href="./html/pirat.html"
+        <div class="container hero-wrap">
+          <h1 class="hero-title visibly-hidden">Streamers</h1>
+          <nav class="hero-nav">
+            <ul class="hero-nav-list">
+              <li class="hero-item">
+                <a class="hero-link" href="./html/arthas.html"
                   ><img
-                    src="./images/serega-pirat.jpg"
-                    alt="tavant"
-                  />Serega_pirat</a
-                >
-                <p>пиковый ммр:7,5k</p>
+                    class="str-img"
+                    src="./images/arthas.jpg"
+                    alt="rapich"
+                    width="100px"
+                    height="100px"
+                  />
+                  <div class="link-text-wrap">
+                    <p class="hero-name">arthas</p>
+                    <p class="hero-text">MMR:<span class="mmr">7k</span></p>
+                  </div>
+                </a>
+              </li>
+              <li class="hero-item">
+                <a class="hero-link" href="./html/stray.html"
+                  ><img
+                    class="str-img"
+                    src="./images/stray228.jpg"
+                    alt="stray"
+                    width="100px"
+                    height="100px"
+                  />
+                  <div class="link-text-wrap">
+                    <p class="hero-name">stray228</p>
+                    <p class="hero-text">MMR:<span class="mmr">21k</span></p>
+                  </div>
+                </a>
               </li>
 
-              <li>
-                <a href="./html/stariy.html"
+              <li class="hero-item">
+                <a class="hero-link" href="./html/pirat.html"
                   ><img
+                    class="str-img"
+                    src="./images/serega-pirat.jpg"
+                    alt="tavant"
+                    width="100px"
+                    height="100px"
+                  />
+                  <div class="link-text-wrap">
+                    <p class="hero-name">serega_pirat</p>
+                    <p class="hero-text">MMR:<span class="mmr">7k</span></p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="hero-item">
+                <a class="hero-link" href="./html/stariy.html"
+                  ><img
+                    class="str-img"
                     src="./images/channels4_profile.jpg"
                     alt="sb"
-                  />Stariy_bog</a
-                >
-                <p>пиковый ммр:11k</p>
+                    width="100px"
+                    height="100px"
+                  />
+                  <div class="link-text-wrap">
+                    <p class="hero-name">stariy_bog</p>
+                    <p class="hero-text">MMR:<span class="mmr">11k</span></p>
+                  </div>
+                </a>
               </li>
             </ul>
           </nav>
@@ -57,6 +94,16 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <section class="container">
+        <div class="footer-content">
+          <h2 class="footer-subtile">Dota2 Streamers Builds©</h2>
+          <p class="footer-text">
+            On this site you can see builds of the most powerful Dota 2
+            streamers (builds 2013-2024)
+          </p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
