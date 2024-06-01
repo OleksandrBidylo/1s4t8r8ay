@@ -535,16 +535,36 @@ p {
     display: flex;
     flex-wrap: nowrap;
   }
+  .core-items {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 75px;
+    padding-left: 0;
+  }
+  .starting-items {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 75px;
+    padding-left: 0;
+  }
   .hero-all {
     font-size: 8px;
     padding: 0px;
   }
   .skills {
     gap: 0px;
+    padding-left: 0;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 80px;
   }
   .size {
-    width: 15px;
-    height: 13px;
+    width: 17px;
+    height: 15px;
+  }
+  .hero-itemb-all {
+    display: flex;
   }
   .names {
     display: none;
@@ -563,5 +583,18 @@ p {
   }
   .stream-text-strey {
     margin-top: 5px;
+  }
+  .stray34 {
+    width: 17px;
+    height: 15px;
+  }
+  .s-name-stray {
+    font-size: 12px;
+  }
+  .s-ps {
+    display: none;
+  }
+  .s-real-name {
+    display: none;
   }
 }
