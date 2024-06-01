@@ -407,4 +407,35 @@ p {
   .s-name {
     font-size: 12px;
   }
+  .s-photo {
+    height: 40px;
+    width: 55px;
+  }
+  .names {
+    gap: 100px;
+  }
+  .names-text {
+    font-size: 8px;
+  }
+  .icon_hero {
+    width: 15px;
+    height: 15px;
+  }
+  .Banana_icon {
+    width: 15px;
+    height: 13px;
+  }
+  .empty-slot {
+    font-size: 9px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .hero-all {
+    font-size: 8px;
+    padding: 0;
+  }
+  .size {
+    width: 15px;
+    height: 13px;
+  }
 }
