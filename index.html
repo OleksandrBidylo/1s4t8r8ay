@@ -4,16 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dota2 Streamers Builds</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..900&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./js/pages.js"></script>
   </head>
   <body>
     <header class="header">
@@ -24,16 +21,21 @@
             <svg class="icon-home" width="24" height="24">
               <use href="./images/symbol-defs.svg#icon-home"></use>
             </svg>
-            Home</a
-          >
-          <a class="home" href="./html/streams.html"
-            ><svg class="icon-home" width="24" height="24">
+            Home
+          </a>
+          <a class="home" href="./html/streams.html">
+            <svg class="icon-home" width="24" height="24">
               <use href="./images/symbol-defs.svg#icon-video-camera"></use>
             </svg>
-            Live</a
-          >
+            Live
+          </a>
         </div>
       </div>
+      <button id="open" class="open-menu-button">
+        <svg class="icon-open-menu" width="24" height="24">
+          <use href="./images/symbol-defs.svg#icon-open-menu"></use>
+        </svg>
+      </button>
     </header>
     <main>
       <section>
@@ -42,11 +44,11 @@
           <nav class="hero-nav">
             <ul class="hero-nav-list">
               <li class="hero-item">
-                <a class="hero-link" href="./html/arthas.html"
-                  ><img
+                <a class="hero-link" href="./html/arthas.html">
+                  <img
                     class="str-img"
                     src="./images/arthas.jpg"
-                    alt="rapich"
+                    alt="arthas"
                     width="100px"
                     height="100px"
                   />
@@ -57,8 +59,8 @@
                 </a>
               </li>
               <li class="hero-item">
-                <a class="hero-link" href="./html/stray.html"
-                  ><img
+                <a class="hero-link" href="./html/stray.html">
+                  <img
                     class="str-img"
                     src="./images/stray228.jpg"
                     alt="stray"
@@ -71,13 +73,12 @@
                   </div>
                 </a>
               </li>
-
               <li class="hero-item">
-                <a class="hero-link" href="./html/pirat.html"
-                  ><img
+                <a class="hero-link" href="./html/pirat.html">
+                  <img
                     class="str-img"
                     src="./images/serega-pirat.jpg"
-                    alt="tavant"
+                    alt="serega_pirat"
                     width="100px"
                     height="100px"
                   />
@@ -87,13 +88,12 @@
                   </div>
                 </a>
               </li>
-
               <li class="hero-item">
-                <a class="hero-link" href="./html/stariy.html"
-                  ><img
+                <a class="hero-link" href="./html/stariy.html">
+                  <img
                     class="str-img"
                     src="./images/channels4_profile.jpg"
-                    alt="sb"
+                    alt="stariy_bog"
                     width="100px"
                     height="100px"
                   />
@@ -112,16 +112,15 @@
           <span class="title-span">Dota 2 Streamers Builds</span> is a site with
           the best builds of popular Dota 2 streamers. The builds are quite
           playable in the current version of Dota 2. And yes, yes, yes: Dota 2,
-          Dota 2, Dota 2.If you want some new stereamers,on our site contact
-          infromation here: sosi@gmail.com
+          Dota 2, Dota 2. If you want some new streamers, on our site contact
+          information here: sosi@gmail.com
         </h1>
       </section>
     </main>
-
     <footer class="footer">
       <section class="container">
         <div class="footer-content">
-          <h2 class="footer-subtile">Dota2 Streamers Builds©</h2>
+          <h2 class="footer-subtitle">Dota2 Streamers Builds©</h2>
           <p class="footer-text">
             On this site you can see builds of the most powerful Dota 2
             streamers (builds 2013-2024)
@@ -129,9 +128,27 @@
         </div>
       </section>
     </footer>
-
-    <div class="mobile-menu">
-      <button id="close-menu"></button>
+    <div id="menu" class="mobile-menu">
+      <button class="close-button" id="close-menu">
+        <svg class="icon-close" width="24" height="24">
+          <use href="./images/symbol-defs.svg#icon-cross"></use>
+        </svg>
+      </button>
+      <div class="menu-item">
+        <a class="menu-home" href="./index.html">
+          <svg class="icon-home" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-home"></use>
+          </svg>
+          Home
+        </a>
+        <a class="menu-home" href="./html/streams.html">
+          <svg class="icon-home" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-video-camera"></use>
+          </svg>
+          Live
+        </a>
+      </div>
     </div>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
