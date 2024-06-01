@@ -392,4 +392,15 @@ p {
 }
 /* ////// */
 @media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .home {
+    display: none;
+  }
 }
