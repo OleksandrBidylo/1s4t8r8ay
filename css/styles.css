@@ -189,7 +189,10 @@ p {
 
 .home-logo-wrap {
   display: flex;
-  justify-content: space-between;
+}
+
+.home-live-wrap {
+  margin-left: auto;
 }
 
 /* ///////main/////// */
@@ -336,3 +339,11 @@ p {
   padding: 10px;
   background-color: rgb(30, 30, 30);
 }
+/* ///svg///// */
+.icon-home {
+  fill: white;
+}
+
+/* /////streams/////// */
+
+/* ////// */
