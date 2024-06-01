@@ -403,4 +403,8 @@ p {
   .home {
     display: none;
   }
+
+  .s-name {
+    font-size: 12px;
+  }
 }
