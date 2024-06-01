@@ -81,6 +81,24 @@ p {
   margin-top: 50px;
 }
 
+.main-title {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid rgb(61, 61, 61);
+  background-color: rgb(30, 30, 30);
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 200px;
+  font-size: 20px;
+  color: rgb(255 255 255 / 0.3);
+}
+.title-span {
+  color: #0c4d57;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+  font-size: 26px;
+}
+
 .str-img {
   border: 1px solid transparent;
   border-radius: 25px;
