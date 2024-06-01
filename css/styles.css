@@ -246,7 +246,8 @@ p {
 }
 
 .hero-itemb-all {
-  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero-name {
   text-align: left;
@@ -370,7 +371,7 @@ p {
 .stream-list {
   display: flex;
   gap: 200px;
-  margin-top: 150px;
+  margin-top: 75px;
   margin-right: 75px;
   margin-left: 75px;
   justify-content: center;
@@ -472,10 +473,31 @@ p {
   }
   .hero-all {
     font-size: 8px;
-    padding: 0;
+    padding: 0px;
   }
-  .images {
+  .skills {
+    gap: 0px;
+  }
+  .size {
     width: 15px;
     height: 13px;
+  }
+  .names {
+    display: none;
+  }
+  .stream-list {
+    display: list-item;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .stream-text-serega {
+    margin-top: 5px;
+  }
+  .stream-text-bog {
+    margin-top: 5px;
+  }
+  .stream-text-strey {
+    margin-top: 5px;
   }
 }
