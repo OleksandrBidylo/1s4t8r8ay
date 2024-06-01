@@ -347,7 +347,7 @@ p {
 /* /////streams/////// */
 .stream-list {
   display: flex;
-  gap: 100px;
+  gap: 75px;
   padding: 100px;
 }
 /* ////// */
