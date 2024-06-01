@@ -345,5 +345,9 @@ p {
 }
 
 /* /////streams/////// */
-
+.stream-list {
+  display: flex;
+  gap: 100px;
+  padding: 100px;
+}
 /* ////// */

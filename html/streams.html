@@ -24,10 +24,10 @@
     </header>
     <main>
       <!-- Add a placeholder for the Twitch embed -->
-      <ul>
-        <li><div id="twitch-embed"></div></li>
-        <li><div id="twitch-embed"></div></li>
-        <li><div id="twitch-embed"></div></li>
+      <ul class="stream-list">
+        <li><div id="twitch-stray"></div></li>
+        <li><div id="twitch-serega"></div></li>
+        <li><div id="twitch-bog"></div></li>
       </ul>
 
       <!-- Load the Twitch embed script -->
@@ -35,7 +35,7 @@
 
       <!-- Create a Twitch.Player object. This will render within the placeholder div -->
       <script type="text/javascript">
-        new Twitch.Player("twitch-embed", {
+        new Twitch.Player("twitch-stray", {
           channel: "stray228",
         });
       </script>
@@ -47,7 +47,7 @@
 
       <!-- Create a Twitch.Player object. This will render within the placeholder div -->
       <script type="text/javascript">
-        new Twitch.Player("twitch-embed", {
+        new Twitch.Player("twitch-serega", {
           channel: "serega_pirat",
         });
       </script>
@@ -59,7 +59,7 @@
 
       <!-- Create a Twitch.Player object. This will render within the placeholder div -->
       <script type="text/javascript">
-        new Twitch.Player("twitch-embed", {
+        new Twitch.Player("twitch-bog", {
           channel: "stariy_bog",
         });
       </script>
