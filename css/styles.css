@@ -248,6 +248,7 @@ p {
 .hero-itemb-all {
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 .hero-name {
   text-align: left;
