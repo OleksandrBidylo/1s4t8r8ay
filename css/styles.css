@@ -347,7 +347,29 @@ p {
 /* /////streams/////// */
 .stream-list {
   display: flex;
-  gap: 75px;
-  padding: 100px;
+  gap: 200px;
+  margin-top: 150px;
+  margin-right: 75px;
+  margin-left: 75px;
+  justify-content: center;
+  padding: 80px;
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 5px;
+  background-color: rgb(30, 30, 30);
+}
+.stream-text-serega {
+  margin-top: 25px;
+  font-weight: 500;
+}
+.stream-text-bog {
+  margin-top: 25px;
+  font-weight: 500;
+}
+.stream-text-strey {
+  margin-top: 25px;
+  font-weight: 500;
+}
+.stream-item {
+  text-align: center;
 }
 /* ////// */
