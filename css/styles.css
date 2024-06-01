@@ -362,6 +362,10 @@ p {
   fill: white;
 }
 
+.icon-hero {
+  display: flex;
+}
+
 /* /////streams/////// */
 .stream-list {
   display: flex;
