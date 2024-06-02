@@ -618,7 +618,22 @@ p {
   }
   .stream-text-strey {
     margin-top: 5px;
-    mn: 10px;
+    margin-bottom: 10px;
+  }
+
+  #twitch-stray {
+    position: relative;
+    right: 35px;
+  }
+
+  #twitch-bog {
+    position: relative;
+    right: 35px;
+  }
+
+  #twitch-serega {
+    position: relative;
+    right: 35px;
   }
 
   .pr {
