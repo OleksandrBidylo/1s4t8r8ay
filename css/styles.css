@@ -610,12 +610,15 @@ p {
   }
   .stream-text-serega {
     margin-top: 5px;
+    margin-bottom: 10px;
   }
   .stream-text-bog {
     margin-top: 5px;
+    margin-bottom: 10px;
   }
   .stream-text-strey {
     margin-top: 5px;
+    mn: 10px;
   }
 
   .pr {
