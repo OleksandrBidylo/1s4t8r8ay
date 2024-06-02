@@ -550,13 +550,13 @@ p {
   .core-items {
     display: flex;
     flex-wrap: wrap;
-    min-width: 75px;
+    min-width: 65px;
     padding-left: 0;
   }
   .starting-items {
     display: flex;
     flex-wrap: wrap;
-    min-width: 75px;
+    min-width: 65px;
     padding-left: 0;
   }
   .hero-all {
@@ -585,6 +585,12 @@ p {
     width: 17px;
     height: 15px;
   }
+
+  .stb {
+    width: 17px;
+    height: 15px;
+  }
+
   .hero-itemb-all {
     display: flex;
   }
